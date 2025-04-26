@@ -1,0 +1,14 @@
+//javascript:
+
+function autoConnect(username, password) {
+  document.querySelector('#username').value = `${username}`;
+  document.querySelector('#pwd').value = `${password}`;
+  document.querySelector('#selectDisname').value = "校园网";
+  document.querySelector('#net_access_type').value = "Internet";
+
+
+  document.querySelector('#loginLink_div').click();
+}
+
+//不要把引号删掉
+autoConnect(你的账号, '你的密码');
